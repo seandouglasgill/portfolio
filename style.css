@@ -291,3 +291,9 @@ input[type=submit] {
     cursor: pointer;
     font-family : inherit;
 }
+.footertag {
+    color: rgb(204, 167, 97);
+    background-color: rgb(3, 19, 20);
+    text-align: center;
+    font-weight: 1.1em;
+}
