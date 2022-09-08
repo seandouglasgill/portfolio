@@ -293,7 +293,8 @@ input[type=submit] {
 }
 .footertag {
     color: rgb(204, 167, 97);
-    background-color: rgb(3, 19, 20);
+    background-color: transparent;
     text-align: center;
     font-weight: 1.1em;
+    margin-top: 10%;
 }
