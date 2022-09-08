@@ -105,7 +105,8 @@ h1, h2 {
 
 @media (max-width: 40em) {
     .navlist {
-        flex-basis: min-content;
+        max-width: 75px;
+        padding-top: 0;
     }
     .headline {
         margin-top: 0;
@@ -123,6 +124,8 @@ h1, h2 {
     }
     .header_container {
         background-color: rgba(204, 167, 97, 0.034);
+        display: flex;
+        justify-content: space-between;
     }
     .about_container {
         display: flex;
@@ -139,8 +142,8 @@ h1, h2 {
         font-style: italic;
         width: 50%;
     }
-   .bio {
-    padding: 0;
+     .bio {
+        padding: 0;
    }
 }
 
